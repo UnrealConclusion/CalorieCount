@@ -1,6 +1,9 @@
 import PropTypes from 'prop-types';
 import {Box, CircularProgress, Paper, Typography} from '@mui/material';
 
+/**
+ * The progress bar component that tracks the amount of calories consumed 
+ */
 export default function ProgressBar({calorieCount=2000, calorieLimit=2000}) {
     const percentage = Math.round((calorieCount / calorieLimit) * 100); // percentage of calorie limit consumed (rounded to nearest whole percentage)
 
