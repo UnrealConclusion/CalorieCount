@@ -17,7 +17,7 @@ const rows = [
 /**
  * An table component used to log items consumed 
  */
-export default function EntryTable({tableName='Breakfast', data=[]}) {
+export default function EntryTable({tableName, data=[]}) {
   return (
     <TableContainer component={Paper}>
       <Table sx={{ minWidth: 380 }} aria-label="customized table">
