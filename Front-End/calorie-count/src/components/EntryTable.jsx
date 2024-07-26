@@ -20,7 +20,7 @@ const rows = [
 export default function EntryTable({tableName, data=[]}) {
   return (
     <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 380 }} aria-label="customized table">
+      <Table sx={{ minWidth: "380px" }} aria-label="customized table">
         <TableHead>
           <TableRow>
             <TableCell>{tableName}</TableCell>
